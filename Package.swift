@@ -30,7 +30,7 @@ import PackageDescription
 
 let package = Package(
     name: "GCDWebServers",
-    platforms: [.iOS(.v9)]
+    platforms: [.iOS(.v9)],
     products: [
       .library(name: "GCDWebServers", targets: ["GCDWebServers"])
     ],
